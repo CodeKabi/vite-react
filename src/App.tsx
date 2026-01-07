@@ -463,10 +463,6 @@ const App = () => {
               className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
             />
           </div>
-          
-          {/* Optional: Blue Glow Effect behind it */}
-          <div className="absolute -bottom-4 -right-4 w-full h-full bg-blue-500/20 rounded-full blur-2xl -z-10"></div>
-        </div>
 
         {/* Education & Stats */}
         <section className="py-12 bg-white dark:bg-zinc-900 border-y border-slate-100 dark:border-zinc-800 transition-colors duration-300">

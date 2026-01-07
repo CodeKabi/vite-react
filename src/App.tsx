@@ -271,7 +271,8 @@ const App = () => {
         narration: "Fresh graduates often struggle to tailor their CVs effectively for specific job descriptions, leading to missed opportunities. I conceived OptiResume to bridge this gap using AI.",
         useCase: "The primary use case is 'Keyword Optimization'. A user uploads their CV and a job description. The AI engine analyzes the gap and provides actionable recommendations.",
         prototype: "The project deliverables included High-Fidelity Mobile UI/UX Prototypes in Figma to demonstrate the user journey. On the technical side, I designed the System Architecture involving an AI engine and Database integration."
-      }
+      },
+      figmaEmbed: "https://embed.figma.com/design/96zvV2yHw5eRmEpwjONUp3/Opti-Resume--?node-id=0-1&embed-host=share"
     },
     {
       title: "Cabut - Travel & Booking App",
@@ -300,7 +301,8 @@ const App = () => {
         narration: "Travel planning can be overwhelming due to the sheer volume of choices. 'Cabut' was designed to address this complexity by offering personalized destination, hotel, and restaurant recommendations.",
         useCase: "Key use cases focused on 'Personalized Discovery' and 'Ease of Booking'. The app needed to recommend trending hotels and promotions based on user preferences.",
         prototype: "I developed a complete Product Pitch Deck and Value Proposition Canvas to define the business strategy. For the design, I created High-Fidelity, interactive mobile app prototypes in Figma."
-      }
+      },
+      figmaEmbed: "https://embed.figma.com/design/QMgzmeG81Ctbjd1s7cVyTw/Cabut-Apps?node-id=0-1&embed-host=share"
     }
   ];
 
@@ -454,7 +456,7 @@ const App = () => {
 
               </div>
               
-               {/* Simple Avatar/Visual Representation */}
+              {/* Simple Avatar/Visual Representation */}
               <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gradient-to-br from-slate-700 to-black dark:from-slate-400 dark:to-slate-600 p-1 shadow-2xl shrink-0">
                 <div className="w-full h-full rounded-full bg-white dark:bg-zinc-900 flex items-center justify-center overflow-hidden">
                    {/* Using user's profile image */}

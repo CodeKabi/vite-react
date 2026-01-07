@@ -454,16 +454,15 @@ const App = () => {
 
               </div>
               
-                     {/* Profile Image */}
-          <div className="w-full h-full rounded-full bg-white dark:bg-zinc-900 overflow-hidden relative z-10">
-            <Image
-              src="/profile.jpg"
-              alt="Taufik Zhang"
-              fill
-              priority
-              className="object-cover transform transition-transform duration-500 group-hover:scale-110"
-            />
+                     {/* Simple Avatar/Visual Representation */}
+              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gradient-to-br from-slate-700 to-black dark:from-slate-400 dark:to-slate-600 p-1 shadow-2xl shrink-0">
+                <div className="w-full h-full rounded-full bg-white dark:bg-zinc-900 flex items-center justify-center overflow-hidden">
+                   <span className="text-6xl font-bold text-slate-300 dark:text-zinc-700">TZ</span>
+                </div>
+              </div>
+            </div>
           </div>
+        </section>
 
   {/* 2. Glow */}
   <div className="absolute -bottom-4 -right-4 w-full h-full bg-blue-500/20 rounded-full blur-2xl -z-10"></div>

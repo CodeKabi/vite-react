@@ -454,27 +454,21 @@ const App = () => {
 
               </div>
               
-           {/* Profile Image */}
-<div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gradient-to-br from-slate-700 to-black dark:from-slate-400 dark:to-slate-600 p-1 shadow-2xl shrink-0 relative group">
-  {/* 1. The Image */}
-  <div className="w-full h-full rounded-full bg-white dark:bg-zinc-900 overflow-hidden relative z-10">
-    <img
-      src={`${import.meta.env.BASE_URL}profile.jpg`}
-      alt="Taufik Zhang"
-      className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
-    />
-  </div>
+                     {/* Profile Image */}
+          <div className="w-full h-full rounded-full bg-white dark:bg-zinc-900 overflow-hidden relative z-10">
+            <Image
+              src="/profile.jpg"
+              alt="Taufik Zhang"
+              fill
+              priority
+              className="object-cover transform transition-transform duration-500 group-hover:scale-110"
+            />
+          </div>
 
   {/* 2. Glow */}
   <div className="absolute -bottom-4 -right-4 w-full h-full bg-blue-500/20 rounded-full blur-2xl -z-10"></div>
 </div>
-
-
-          
-          {/* 2. Glow */}
-          <div className="absolute -bottom-4 -right-4 w-full h-full bg-blue-500/20 rounded-full blur-2xl -z-10"></div>
-        </div>
-              
+  
         {/* Education & Stats */}
         <section className="py-12 bg-white dark:bg-zinc-900 border-y border-slate-100 dark:border-zinc-800 transition-colors duration-300">
           <div className="max-w-6xl mx-auto px-4">

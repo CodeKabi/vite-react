@@ -459,7 +459,7 @@ const App = () => {
           {/* 1. The Image */}
           <div className="w-full h-full rounded-full bg-white dark:bg-zinc-900 overflow-hidden relative z-10">
             <img 
-              src="/profile.jpg" 
+              src="/profile.jpeg" 
               alt="Taufik Zhang" 
               className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
             />

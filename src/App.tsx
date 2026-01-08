@@ -32,7 +32,7 @@ import {
 } from 'lucide-react';
 
 // --- GEMINI API CONFIGURATION ---
-const apiKey = "AIzaSyBOba00i2T849KsUSja81PPF_fCDoA6kSI"; // The execution environment provides the key at runtime.
+const apiKey = ""; // The execution environment provides the key at runtime.
 
 const TAUFIK_CONTEXT = `
   You are an AI assistant for Taufik Zhang's portfolio website. 
